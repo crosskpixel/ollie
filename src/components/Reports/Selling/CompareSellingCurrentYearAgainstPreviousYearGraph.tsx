@@ -80,8 +80,6 @@ export const CompareSellingCurrentYearAgainstPreviousYearGraph = ({ data }: { da
           })}
       </Box>
 
-        
-        
     </Box>
     
   );

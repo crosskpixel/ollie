@@ -1,5 +1,4 @@
 import FormControl from '@mui/material/FormControl';
-
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';;
@@ -17,9 +16,6 @@ export const SingleSelectPeriodByDays = ({ value, onChange }: { value: number, o
           onChange={event => onChange(event.target.value)}
           label="Período"
         >
-          {/* <MenuItem value="">
-            <em>Selecione</em>
-          </MenuItem> */}
           <MenuItem value={7}>7 dias</MenuItem>
           <MenuItem value={30}>30 dias</MenuItem>
           <MenuItem value={60}>60 dias</MenuItem>
